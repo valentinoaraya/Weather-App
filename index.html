@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./index.js"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="container-temp">
+
+                <div class="search-ubication">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#212228" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg>
+                    <input placeholder="Busca tu ubicación" type="search" name="time" id="inputTime">
+
+                    <label id="label" for="time">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#212227" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </label>
+                </div>
+
+                <div class="temp" id="temp">
+                    <div class="error" id="not-found">
+                        <h2>No pudimos encontrar la ubicación ingresada.</h2>
+                        <img src="./images/error.png" alt="error">
+                    </div>
+                    <div class="climate" id="climate">
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;    
+}
+
+body{
+    color: #BDD4E7;
+    background-color: #212227;
+    text-align: center;
+    padding: 2rem;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    height: 27rem;
+    width: 27rem;
+}
+
+.container-temp{
+    color: #212227;
+    background-color: #71CFF5;
+    border-radius: 18px;
+    padding: 2rem;
+}
+
+.container-temp div label{
+    cursor: pointer;
+}
+
+.search-ubication{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-ubication input{
+    width: 60%;
+    border: #BDD4E7;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.temp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.city{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features h4 {
+    margin: 0.3rem;
+}
+
+.error{
+    display: none;
+}
+
+.climate{
+    display: none;  
+}
+
+.resolv{
+    display: block;
+    margin-top: 2rem;
+}
